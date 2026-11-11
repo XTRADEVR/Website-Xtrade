@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XTRADE - Jasa Website Modern & Blog Tutorial</title>
+<meta name="description" content="XTRADE - Jasa bikin website modern & blog SEO. Tutorial Linux on Android, Windows di HP, dan App Pengelola Dokumen Aman.">
+<meta name="keywords" content="xtrade, jasa website, blog, linux android, windows di hp, pengelola dokumen">
+<meta name="author" content="XTRADE">
+<meta property="og:title" content="XTRADE - Website Yang Menghasilkan">
+<meta property="og:description" content="Bikin website toko, portfolio, dan blog yang rame di Google. Chat WA sekarang.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://via.placeholder.com/1200x630/FFA500/000000?text=XTRADE">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{background:#0F0F0F;color:white;font-family:sans-serif}
+.card{background:#1A1A1A;border-radius:16px}
+.btn-orange{background:#FFA500;color:black;font-weight:bold}
+.hidden-blog{display:none}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center p-4 sticky top-0 bg-black/90 z-50">
+  <div class="text-2xl font-black">XTRADE<span class="text-orange-500">.</span></div>
+  <div class="hidden md:flex gap-6 text-sm">
+    <a href="#home">Beranda</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#blog">Blog</a>
+    <a href="dokumen.html">App Dokumen</a>
+  </div>
+  <a href="https://wa.me/6280000000000" class="btn-orange px-4 py-2 rounded-full text-sm">Chat WA</a>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="p-6 md:p-12 grid md:grid-cols-2 gap-8 items-center">
+  <div>
+    <span class="bg-orange-500 text-black text-xs px-3 py-1 rounded-full font-bold">WEBSITE + BLOG + APP</span>
+    <h1 class="text-4xl md:text-6xl font-black mt-4 leading-tight">Bikin Website<br><span class="text-orange-500">Yang Menghasilkan.</span></h1>
+    <p class="text-gray-400 mt-4">Bukan cuma bagus doang. Website XTRADE dibuat buat jualan, dapet klien, dan naik di Google lewat Blog.</p>
+    <div class="flex flex-wrap gap-3 mt-6">
+      <a href="#layanan" class="btn-orange px-6 py-3 rounded-full">Lihat Layanan</a>
+      <a href="#blog" class="border border-white px-6 py-3 rounded-full">Baca Blog</a>
+      <a href="dokumen.html" class="bg-white text-black px-6 py-3 rounded-full font-bold">Buka App Dokumen 🔒</a>
+    </div>
+  </div>
+  <div class="card p-6">
+    <div class="bg-gradient-to-br from-orange-500 to-red-600 h-48 rounded-xl flex items-center justify-center text-6xl">🚀</div>
+    <h3 class="font-bold mt-4">Project Terbaru: Pengelola Dokumen Aman</h3>
+    <p class="text-gray-400 text-sm mt-1">Aplikasi dokumen pribadi, aman, tanpa server, langsung jalan di browser. Data lu cuma tersimpan di HP lu sendiri.</p>
+    <a href="dokumen.html" class="text-orange-500 font-bold text-sm mt-3 inline-block">Buka Aplikasinya →</a>
+  </div>
+</section>
+
+<!-- LAYANAN -->
+<section id="layanan" class="p-6 md:p-12">
+  <h2 class="text-3xl font-black">Layanan XTRADE</h2>
+  <div class="grid md:grid-cols-3 gap-4 mt-6">
+    <div class="card p-5">
+      <div class="text-3xl">🌐</div>
+      <h3 class="font-bold mt-2">Jasa Website</h3>
+      <p class="text-gray-400 text-sm">Website toko, portfolio, company profile. 1 file, langsung online.</p>
+      <p class="text-orange-500 font-bold mt-3">Mulai 150K</p>
+      <a href="https://wa.me/6280000000000?text=Halo%20XTRADE,%20mau%20pesan%20Jasa%20Website" class="text-sm font-bold mt-2 inline-block">Pesan →</a>
+    </div>
+    <div class="card p-5">
+      <div class="text-3xl">📝</div>
+      <h3 class="font-bold mt-2">Jasa Blog + SEO</h3>
+      <p class="text-gray-400 text-sm">Blog yang bikin website lu rame dari Google.</p>
+      <p class="text-orange-500 font-bold mt-3">Mulai 100K</p>
+      <a href="https://wa.me/6280000000000?text=Halo%20XTRADE,%20mau%20pesan%20Blog%20SEO" class="text-sm font-bold mt-2 inline-block">Pesan →</a>
+    </div>
+    <div class="card p-5">
+      <div class="text-3xl">📱</div>
+      <h3 class="font-bold mt-2">Setting HP Jadi PC</h3>
+      <p class="text-gray-400 text-sm">Linux on Android, Termux, Winlator, buat ngoding dari HP.</p>
+      <p class="text-orange-500 font-bold mt-3">Mulai 50K</p>
+      <a href="https://wa.me/6280000000000?text=Halo%20XTRADE,%20mau%20setting%20HP%20jadi%20PC" class="text-sm font-bold mt-2 inline-block">Pesan →</a>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="p-6 md:p-12 bg-[#141414]">
+  <h2 class="text-3xl font-black">Blog Terbaru</h2>
+  <p class="text-gray-400 text-sm">Tutorial yang paling sering dicari orang.</p>
+  <div class="grid md:grid-cols-3 gap-4 mt-6">
+    <article class="card overflow-hidden cursor-pointer" onclick="bukaArtikel(1)">
+      <div class="bg-blue-600 h-40 flex items-center justify-center text-5xl">🐧</div>
+      <div class="p-5"><span class="text-xs text-orange-500">TUTORIAL • 11 NOV 2026</span><h3 class="font-bold mt-1">Linux on Android, Gimana Caranya?</h3><p class="text-gray-400 text-sm mt-1">Tanpa root, HP 2GB masih kuat. Pake Termux + Alpine...</p><span class="text-orange-500 text-sm font-bold">Baca Selengkapnya →</span></div>
+    </article>
+    <article class="card overflow-hidden cursor-pointer" onclick="bukaArtikel(2)">
+      <div class="bg-green-600 h-40 flex items-center justify-center text-5xl">🪟</div>
+      <div class="p-5"><span class="text-xs text-orange-500">TUTORIAL • 11 NOV 2026</span><h3 class="font-bold mt-1">Windows di HP, Beneran Bisa?</h3><p class="text-gray-400 text-sm mt-1">Ada 2 cara: Emulator beneran vs Launcher tema doang...</p><span class="text-orange-500 text-sm font-bold">Baca Selengkapnya →</span></div>
+    </article>
+    <article class="card overflow-hidden cursor-pointer" onclick="bukaArtikel(3)">
+      <div class="bg-purple-600 h-40 flex items-center justify-center text-5xl">📖</div>
+      <div class="p-5"><span class="text-xs text-orange-500">EDUKASI • 11 NOV 2026</span><h3 class="font-bold mt-1">Website Sama Blog, Apa Bedanya?</h3><p class="text-gray-400 text-sm mt-1">Website itu Ruko, Blog itu Buku Harian. Ini penjelasannya...</p><span class="text-orange-500 text-sm font-bold">Baca Selengkapnya →</span></div>
+    </article>
+  </div>
+
+  <div id="artikel" class="card p-6 mt-6 hidden-blog">
+    <button onclick="document.getElementById('artikel').classList.add('hidden-blog')" class="text-sm text-gray-400">← Tutup Artikel</button>
+    <h3 id="judul-artikel" class="text-2xl font-black mt-2"></h3>
+    <p id="isi-artikel" class="text-gray-300 mt-3 leading-relaxed whitespace-pre-line"></p>
+    <a href="https://wa.me/6280000000000" class="btn-orange inline-block px-5 py-2 rounded-full text-sm mt-4">Mau Dibikinin? Chat WA</a>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="p-6 md:p-12">
+  <h2 class="text-3xl font-black">Kenapa Pilih XTRADE?</h2>
+  <div class="grid md:grid-cols-4 gap-4 mt-6 text-center">
+    <div class="card p-4"><div class="text-2xl">⚡</div><p class="font-bold text-sm mt-2">Cepat 1 Hari Jadi</p></div>
+    <div class="card p-4"><div class="text-2xl">💰</div><p class="font-bold text-sm mt-2">Harga Jujur</p></div>
+    <div class="card p-4"><div class="text-2xl">📱</div><p class="font-bold text-sm mt-2">Bisa Dari HP</p></div>
+    <div class="card p-4"><div class="text-2xl">🔒</div><p class="font-bold text-sm mt-2">Aman & Tanpa Server</p></div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<footer id="kontak" class="p-8 text-center bg-black">
+  <h2 class="text-2xl font-black">Mau Bikin Website Kayak Gini?</h2>
+  <p class="text-gray-400 text-sm mt-2">Chat sekarang, besok website lu udah online.</p>
+  <a href="https://wa.me/6280000000000" class="btn-orange inline-block px-8 py-3 rounded-full mt-4">Chat WA XTRADE</a>
+  <p class="text-gray-600 text-xs mt-6">© 2026 XTRADE • Depok, Indonesia • <a href="dokumen.html" class="underline">App Dokumen</a></p>
+</footer>
+
+<script>
+const data = {
+1:{judul:"Linux on Android, Gimana Caranya?", isi:"Cara paling enteng buat HP 2GB:\n\n1. Install Termux dari F-Droid (jangan dari Play Store)\n2. Ketik: pkg install proot-distro\n3. Ketik: proot-distro install alpine\n4. Ketik: proot-distro login alpine\n\nUdah! HP lu sekarang jadi Linux. Bisa install Python, Git, NodeJS.\n\nKalo mau ada desktopnya, pake Andronix + XFCE, tapi itu lebih berat.\n\nMau dibikinin? Chat WA XTRADE."},
+2:{judul:"Windows di HP, Beneran Bisa?", isi:"Bisa, ada 2 cara:\n\n1. Emulator (Winlator): Windows beneran jalan, bisa buka file .exe. Tapi berat, HP 2GB bakal ngelag.\n\n2. Launcher Tema: Cuma tampilan doang yang mirip XP, dalemnya tetep Android. Enteng, cocok buat konten TikTok.\n\nYang viral di foto itu biasanya yang nomor 2."},
+3:{judul:"Website Sama Blog, Apa Bedanya?", isi:"Website itu RUKO. Isinya halaman tetap: Beranda, Layanan, Harga, Kontak.\n\nBlog itu BUKU HARIAN. Isinya postingan baru terus, yang terbaru di atas.\n\nBlog itu BAGIAN dari Website. Jadi lu bisa punya website yang didalemnya ada blog, kayak website XTRADE ini. Blog-nya yang narik orang dari Google, website-nya yang bikin orang beli."}
+};
+function bukaArtikel(id){
+  document.getElementById('artikel').classList.remove('hidden-blog');
+  document.getElementById('judul-artikel').innerText = data[id].judul;
+  document.getElementById('isi-artikel').innerText = data[id].isi;
+  document.getElementById('artikel').scrollIntoView({behavior:'smooth'});
+}
+</script>
+</body>
+</html>
